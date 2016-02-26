@@ -1,2 +1,3 @@
-# hydepress.github.io
-Hyde Press Bookshelf
+
+Hyde Press Bookshelf - [`hydepress.github.io`](http://hydepress.github.io)
+
