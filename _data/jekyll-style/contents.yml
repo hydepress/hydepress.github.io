@@ -1,0 +1,69 @@
+#######################
+#  Table of Contents
+
+- title: Style Guides
+  sections:
+  - title: Welcome
+    path:  intro.md
+    sections:
+    - title: Why write this?
+    - title: Want to contribute?
+
+  - title: The config file
+    path:  config.md
+    sections:
+    - title: The format
+    - title: Arrays
+    - title: Variables
+    - title: Baseurl
+    - title: The `site.github` namespace
+
+  - title: Filenames
+    path:  filenames.md
+    sections:
+    - title: Extensions
+    - title: Numbering page names
+
+  - title: .gitignore
+    path:  gitignore.md
+
+  - title: Information architecture
+    path:  information-architecture.md
+    sections:
+    - title: When to use posts
+    - title: When to use collections
+    - title: When to use pages
+    - title: When to use data
+ 
+  - title: Layouts and includes
+    path:  layouts-and-includes.md
+    sections:
+    - title: "The site's primary layout"
+    - title: Header and footer includes
+
+  - title: Permalinks
+    path:  permalinks.md
+    sections:
+    - title: Collection permalinks
+    - title: Per-file permalinks
+
+  - title: Plugins
+    path:  plugins.md
+    sections:
+    - title: Plugins generally
+    - title: Gem-based plugins
+    - title: Security
+    - title: Naming
+
+  - title: Posts
+    path:  posts.md
+    sections:
+    - title: Dates in front matter
+
+  - title: The GitHub repository
+    path:  repository.md
+    sections:
+    - title: The default branch
+
+  - title: Syntax highlighting
+    path:  syntax-highlighting.md
