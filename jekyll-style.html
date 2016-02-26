@@ -3,5 +3,68 @@ layout: default
 title:  Jekyll Style Guide
 ---
 
-Book page
+{% assign book           = site.data.jekyll_style.book %}
+<!-- todo: check - can we use book.contents - why? why not? -->
+{% assign book_contents  = site.data.jekyll_style.contents %}
+
+
+<h1>{{ book.title }}</h1>
+<h3>by {{ book.author.name }}</h3>
+
+<!-- fix: use book.subtitle -->
+<p>An opinionated guide to common Jekyll design patterns and anti-patterns.</p>
+
+<!-- table of contents -->
+
+<div class='toc'>
+
+Contents
+
+<ul>
+{% for part in book_contents %}
+  <li>{{ part.title }}
+   <ul>
+     {% for chapter in part.sections %}
+       <li>{{ chapter.title }}</li>
+     {% endfor %}
+   </ul>
+  </li>
+{% endfor %}
+</ul>
+</div>
+
+
+<h2>Preface</h1>
+
+<p>
+<b>Note:</b> The book edition is still an early release and a work-in-progess.
+</p>
+
+<p>
+This is the <a href="https://github.com/benbalter/jekyll-style-guide/tree/gh-pages/_docs">(official) style guide</a>
+for the Jekyll static site builder / generator
+reformatted in a single-page book edition.
+</p>
+
+<p>See the <a href="https://github.com/hydepress/jekyll-style">source repo</a> for how
+the book gets auto-built with "plain" Jekyll - of course - and hosted on GitHub Pages.
+</p>
+
+<!--
+Questions? Comments? Send them to the Jekyll Talk forum post
+titled...
+-->
+
+<p>
+Onwards.
+</p>
+
+
+<h2>Acknowledgments</h2>
+
+<p>
+Thanks to Ben Balter and all style guide contributors for making it all possible.
+</p>
+
+
 
