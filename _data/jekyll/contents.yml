@@ -1,0 +1,100 @@
+#######################
+#  Table of Contents
+
+- title: Getting Started
+  sections:
+  - title: Welcome
+    path:  01_getting_started/01_index.md
+    sections:
+    - title: "So what is Jekyll, exactly?"
+    - title: "Helpful Hints"
+  - title: Quick-start guide
+    path:  01_getting_started/02_quickstart.md
+  - title: Installation
+    path:  01_getting_started/03_installation.md
+    sections:
+    - title: "Requirements"
+    - title: "Install with RubyGems"
+    - title: "Pre-releases"
+    - title: "Optional Extras"
+  - title: Basic Usage
+    path:  01_getting_started/04_usage.md
+  - title: Directory structure
+    path:  01_getting_started/05_structure.md
+  - title: Configuration
+    path:  01_getting_started/06_configuration.md
+    sections:
+    - title: "Configuration Settings"
+      sections:
+      - title: "Global Configuration"
+      - title: "Build Command Options"
+      - title: "Serve Command Options"
+    - title: "Custom WEBRick Headers"
+      sections:
+      - title: "Defaults"
+    - title: "Specifying a Jekyll environment at build time"
+    - title: "Front Matter defaults"
+    - title: "Default Configuration"
+    - title: "Markdown Options"
+      sections:
+      - title: "Redcarpet"
+      - title: "Kramdown"
+      - title: "Custom Markdown Processors"
+    - title: "Incremental Regeneration"
+
+- title: Your Content
+  sections:
+  - title: Front Matter
+    path:  02_your_content/01_frontmatter.md
+  - title: Writing posts
+    path:  02_your_content/02_posts.md
+  - title: Working with drafts
+    path:  02_your_content/03_drafts.md
+  - title: Creating pages
+    path:  02_your_content/04_pages.md
+  - title: Static Files
+    path:  02_your_content/05_static_files.md
+  - title: Variables
+    path:  02_your_content/06_variables.md
+  - title: Collections
+    path:  02_your_content/07_collections.md
+  - title: Data Files
+    path:  02_your_content/08_datafiles.md
+  - title: Assets
+    path:  02_your_content/09_assets.md
+
+- title: Customization
+  sections:
+  - title: Templates
+    path:  03_customization/01_templates.md
+  - title: Permalinks
+    path:  03_customization/02_permalinks.md
+  - title: Pagination
+    path:  03_customization/03_pagination.md
+  - title: Plugins
+    path:  03_customization/04_plugins.md
+  - title: Extras
+    path:  03_customization/05_extras.md
+
+- title: Deployment
+  sections:
+  - title: GitHub Pages
+    path:  04_deployment/01_github-pages.md
+  - title: Deployment methods
+    path:  04_deployment/02_deployment-methods.md
+  - title: Continuous Integration
+    path:  04_deployment/03_continuous-integration.md
+
+- title: Miscellaneous
+  sections:
+  - title: Troubleshooting
+    path:  05_miscellaneous/01_troubleshooting.md
+  - title: Jekyll on Windows
+    path:  05_miscellaneous/02_windows.md 
+
+- title: Appendix
+  sections: 
+  - title: History
+    path:  06_appendix/01_history.md
+
+
