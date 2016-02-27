@@ -7,3 +7,6 @@
 [submodule "_jekyll-plugins"]
 	path = _jekyll-plugins
 	url = https://github.com/hydepress/jekyll-plugins
+[submodule "_octopress"]
+	path = _octopress
+	url = https://github.com/hydepress/octopress
