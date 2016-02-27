@@ -1,0 +1,54 @@
+#######################
+#  Table of Contents
+
+- title: Built-in Standard Plugins (Incl. with GitHub Pages)
+  sections:
+  - title: Feed
+    path:  01_github_pages/01_feed.md
+  - title: Sitemap Generator
+    path:  01_github_pages/02_sitemap.md
+  - title: Redirect From
+    path:  01_github_pages/03_redirect-from.md
+  - title: Gist
+    path:  01_github_pages/04_gist.md
+  - title: Emoji
+    path:  01_github_pages/05_jemoji.md
+  - title: Mentions
+    path:  01_github_pages/06_mentions.md
+  - title: SEO Tag
+    path:  01_github_pages/07_seo_tag.md
+  - title: GitHub Metadata
+    path:  01_github_pages/08_github-metadata.md
+
+- title: Tags
+  sections:
+  - title: Avatar
+    path:  02_tags/01_avatar.md
+
+- title: Asset Pipeline
+  sections:
+  - title: Assets
+    path:  03_asset_pipeline/01_assets.md
+  - title: Bootstrap Sass
+    path:  03_asset_pipeline/02_bootstrap-sass.md
+
+- title: Miscellaneous
+  sections:
+  - title: Auth
+    path:  04_miscellaneous/01_auth.md
+  - title: Scholar
+    path:  04_miscellaneous/02_scholar.md
+
+- title: Command Line Tools
+  sections:
+  - title: drjekyll - the missing static site theme package manager
+    path:  05_command_line_tools/01_drjekyll.md
+  - title: mrhyde - static site quick starter script wizard
+    path:  05_command_line_tools/02_mrhyde.md
+
+- title: WordPress
+  sections:
+  - title: WordPress to Jekyll Exporter
+    path:  06_wordpress/01_wordpress-exporter.md
+  - title: WordPress <--> GitHub Sync
+    path:  06_wordpress/02_wordpress-github-sync.md
