@@ -1,3 +1,6 @@
 [submodule "_jekyll-style"]
 	path = _jekyll-style
 	url = https://github.com/hydepress/jekyll-style
+[submodule "_jekyll"]
+	path = _jekyll
+	url = https://github.com/hydepress/jekyll
