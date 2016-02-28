@@ -10,3 +10,6 @@
 [submodule "_octopress"]
 	path = _octopress
 	url = https://github.com/hydepress/octopress
+[submodule "_jekyll-import"]
+	path = _jekyll-import
+	url = https://github.com/hydepress/jekyll-import
