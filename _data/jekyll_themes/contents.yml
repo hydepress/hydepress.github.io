@@ -14,16 +14,18 @@
   sections:
   - title: "Henry's Minimial Theme"
     path:  02_blogs/henry-minimial.md
-  - title: Poole Theme
+  - title: Poole Theme (by Mark Otto)
     path:  02_blogs/poole.md
-  - title: "Poole's Hyde Theme"
+  - title: "Poole's Hyde Theme (by Mark Otto)"
     path:  02_blogs/poole-hyde.md
-  - title: "Poole's Lanyon Theme"
+  - title: "Poole's Lanyon Theme (by Mark Otto)"
     path:  02_blogs/poole-lanyon.md
+  - title: "So Simple Theme (by Michael Rose)"
+    path:  02_blogs/mmistakes-so-simple.md
 
 - title: Single-Page Sites
   sections:
-  - title: "Tim O'Brien's Single Paged Theme"
+  - title: "Single Paged Theme (by Tim O'Brien)"
     path:  03_single_page_sites/single-paged.md
 
 - title: Books
@@ -35,6 +37,6 @@
 
 - title: Miscellaneous
   sections:
-  - title: "Elle Kasai's Resume Cards Theme"
+  - title: "Resume Cards Theme (by Elle Kasai)"
     path:  05_misc/ellekasai-resumecards.md
 
