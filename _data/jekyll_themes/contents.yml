@@ -1,0 +1,40 @@
+#######################
+#  Table of Contents
+
+- title: Starter Sites (w/ Pages)
+  sections:
+  - title: "Henry's Starter Theme"
+    path:  01_starter/henry-starter.md
+  - title: "Henry's Starter Theme V2"
+    path:  01_starter/henry-start-v2.md
+  - title: "Henry's Bootstrap Theme"
+    path:  01_starter/henry-bootstrap.md
+
+- title: Blogs (w/ Posts, Feeds, Archives, etc.)
+  sections:
+  - title: "Henry's Minimial Theme"
+    path:  02_blogs/henry-minimial.md
+  - title: Poole Theme
+    path:  02_blogs/poole.md
+  - title: "Poole's Hyde Theme"
+    path:  02_blogs/poole-hyde.md
+  - title: "Poole's Lanyon Theme"
+    path:  02_blogs/poole-lanyon.md
+
+- title: Single-Page Sites
+  sections:
+  - title: "Tim O'Brien's Single Paged Theme"
+    path:  03_single_page_sites/single-paged.md
+
+- title: Books
+  sections:
+  - title: "Henry's Classics Book Theme"
+    path:  04_books/henry-book.md
+  - title: "Henry's Gutenberg Book Theme"
+    path:  04_books/henry-gutenberg.md
+
+- title: Miscellaneous
+  sections:
+  - title: "Elle Kasai's Resume Cards Theme"
+    path:  05_misc/ellekasai-resumecards.md
+

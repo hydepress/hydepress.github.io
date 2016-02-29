@@ -13,3 +13,6 @@
 [submodule "_jekyll-import"]
 	path = _jekyll-import
 	url = https://github.com/hydepress/jekyll-import
+[submodule "_jekyll-themes"]
+	path = _jekyll-themes
+	url = https://github.com/hydepress/jekyll-themes
