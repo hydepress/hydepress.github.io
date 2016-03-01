@@ -80,7 +80,7 @@
 
 - title: Appendix
   sections: 
-  - title: History
+  - title: Plugins
     path:  06_appendix/01_plugins.md
   - title: History
     path:  06_appendix/02_history.md
