@@ -1,0 +1,12 @@
+#######################
+#  Table of Contents
+
+- title: Getting Started
+  sections:
+  - title: Installation
+    path:  installation.md
+  - title: Troubleshooting
+    path:  troubleshooting.md
+  - title: Jekyll on Windows
+    path:  windows.md 
+

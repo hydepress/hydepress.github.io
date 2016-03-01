@@ -19,3 +19,6 @@
 [submodule "_jekyll-deploy"]
 	path = _jekyll-deploy
 	url = https://github.com/hydepress/jekyll-deploy
+[submodule "_jekyll-install"]
+	path = _jekyll-install
+	url = https://github.com/hydepress/jekyll-install
