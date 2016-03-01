@@ -1,6 +1,10 @@
 #######################
 #  Table of Contents
 
+##
+##  todo: add reference to installation guide ??
+##   add reference to deployment guide ?? why? why not??
+
 - title: Getting Started
   sections:
   - title: Welcome
@@ -10,13 +14,6 @@
     - title: "Helpful Hints"
   - title: Quick-start guide
     path:  01_getting_started/02_quickstart.md
-  - title: Installation
-    path:  01_getting_started/03_installation.md
-    sections:
-    - title: "Requirements"
-    - title: "Install with RubyGems"
-    - title: "Pre-releases"
-    - title: "Optional Extras"
   - title: Basic Usage
     path:  01_getting_started/04_usage.md
   - title: Directory structure
@@ -80,8 +77,6 @@
   sections:
   - title: Troubleshooting
     path:  05_miscellaneous/01_troubleshooting.md
-  - title: Jekyll on Windows
-    path:  05_miscellaneous/02_windows.md 
 
 - title: Appendix
   sections: 
