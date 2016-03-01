@@ -76,15 +76,6 @@
   - title: Extras
     path:  03_customization/05_extras.md
 
-- title: Deployment
-  sections:
-  - title: GitHub Pages
-    path:  04_deployment/01_github-pages.md
-  - title: Deployment methods
-    path:  04_deployment/02_deployment-methods.md
-  - title: Continuous Integration
-    path:  04_deployment/03_continuous-integration.md
-
 - title: Miscellaneous
   sections:
   - title: Troubleshooting
