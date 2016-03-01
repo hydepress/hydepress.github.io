@@ -1,0 +1,12 @@
+#######################
+#  Table of Contents
+
+- title: Deployment
+  sections:
+  - title: GitHub Pages
+    path:  github-pages.md
+  - title: Deployment Methods
+    path:  deployment-methods.md
+  - title: Continuous Integration
+    path:  continuous-integration.md
+

@@ -16,3 +16,6 @@
 [submodule "_jekyll-themes"]
 	path = _jekyll-themes
 	url = https://github.com/hydepress/jekyll-themes
+[submodule "_jekyll-deploy"]
+	path = _jekyll-deploy
+	url = https://github.com/hydepress/jekyll-deploy
