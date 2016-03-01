@@ -81,6 +81,7 @@
 - title: Appendix
   sections: 
   - title: History
-    path:  06_appendix/01_history.md
-
+    path:  06_appendix/01_plugins.md
+  - title: History
+    path:  06_appendix/02_history.md
 
