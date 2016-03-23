@@ -78,9 +78,8 @@ Thanks to all Liquid contributors for making it all possible.
   {% assign part_index = forloop.index %} 
   {% for chapter in part.sections %}
 <div class="chapter">
-  <h1>Chapter {{ part_index }}.{{ forloop.index }} - {{ chapter.title }}</h1>
+  <h1>{{ part_index }}.{{ forloop.index }} {{ chapter.title }}</h1>
             
-
   <!-- try adding content using include_relative -->
   {% capture txt %}{% include_relative _liquid/{{chapter.path}} %}{% endcapture %}
 
