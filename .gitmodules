@@ -25,3 +25,6 @@
 [submodule "_jekyll-dev"]
 	path = _jekyll-dev
 	url = https://github.com/hydepress/jekyll-dev
+[submodule "_liquid"]
+	path = _liquid
+	url = https://github.com/hydepress/liquid
