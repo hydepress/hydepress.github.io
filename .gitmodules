@@ -28,3 +28,6 @@
 [submodule "_liquid"]
 	path = _liquid
 	url = https://github.com/hydepress/liquid
+[submodule "_octopod"]
+	path = _octopod
+	url = https://github.com/hydepress/octopod
