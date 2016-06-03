@@ -1,0 +1,110 @@
+---
+layout: default
+title:  Octopod Documentation
+---
+
+{% assign book           = site.data.octopod.book %}
+<!-- todo: check - can we use book.contents - why? why not? -->
+{% assign book_contents  = site.data.octopod.contents %}
+
+
+<h1>{{ book.title }}</h1>
+<h3>by {{ book.author.name }}</h3>
+
+<!-- fix: use book.subtitle -->
+<p>A podcast publishing extension for the static site generator Jekyll.</p>
+
+<!-- table of contents -->
+
+<div class='toc'>
+
+Contents
+
+<ul>
+{% for part in book_contents %}
+  <li>{{ part.title }}
+   <ul>
+     {% for chapter in part.sections %}
+       <li>{{ chapter.title }}</li>
+     {% endfor %}
+   </ul>
+  </li>
+{% endfor %}
+</ul>
+</div>
+
+
+<h2>Preface</h1>
+
+<p>
+<b>Note:</b> The book edition is still an early release and a work-in-progess.
+</p>
+
+<p>
+This is the <a href="https://github.com/jekyll-octopod/jekyll-octopod.github.io">(official) documentation</a>
+for Octopod reformatted in a single-page book edition.
+</p>
+
+<p>See the <a href="https://github.com/hydepress/jekyll-style">source repo</a> for how
+the book gets auto-built with "plain" Jekyll - of course - and hosted on GitHub Pages.
+</p>
+
+
+<!--
+Questions? Comments? Send them to the Jekyll Talk forum post
+titled...
+-->
+
+<p>
+Onwards.
+</p>
+
+
+<h2>Acknowledgments</h2>
+
+<p>
+Thanks to Stefan Haslinger and all Octopod contributors for making it all possible.
+</p>
+
+
+<!-- chapters -->
+
+{% for part in book_contents %}
+  <h1 class="part">Part {{ forloop.index }} - {{ part.title }}</h1>
+
+  {% assign part_index = forloop.index %}
+  {% for chapter in part.sections %}
+<div class="chapter">
+  <h1>Chapter {{ part_index }}.{{ forloop.index }} - {{ chapter.title }}</h1>
+
+  <!-- add mini table of contents for chapter if available -->
+  {% if chapter.sections %}
+  Contents
+  <ul>
+    {% for sec in chapter.sections %}
+    <li>{{ sec.title }}
+      {% if sec.sections %}
+        <ul>
+         {% for subsec in sec.sections %}
+           <li>{{ subsec.title }}</li>
+         {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  <!-- try adding content using include_relative -->
+  {% capture txt %}{% include_relative _octopod/{{chapter.path}} %}{% endcapture %}
+
+  <!-- hack: cut off yaml front matter header
+     possible alternative??:
+       try to use collection and use a content lookup with title or path - why? whynot??
+    -->
+  {% assign txt2 = txt | replace_first: '---', '' | replace_first: '---', '@@END@@' | split: '@@END@@' %}
+  {{ txt2[1] | markdownify }}
+</div>
+  {% endfor %}
+
+{% endfor %}
