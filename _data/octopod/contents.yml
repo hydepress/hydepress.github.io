@@ -4,25 +4,25 @@
 - title: Getting Started
   sections:
   - title: Prerequisites
-    path:  prerequisites.md
+    path:  01__Prerequisites.md
   - title: Installation
-    path:  installation.md
+    path:  02__Installation.md
   - title: Demo
-    path:  demo.md
+    path:  03__Demo.md
   - title: Usage
-    path:  usage.md
-#  - title: The command line tool
-#    path:  command_line.md
-#  - title: Liquid filters
-#    path:  liquid_filters.md
-#  - title: The post structure
-#    path:  post_structure.md
+    path:  04__Usage.md
+  - title: The command line tool
+    path:  05__Command_Line.md
+  - title: Liquid filters
+    path:  06__Liquid_Filters.md
+  - title: The post structure
+    path:  07__Post_Structure.md
 
-#- title: Appendix
-#  sections:
-#  - title: Contributions
-#    path:  contributions.md
-#  - title: Credits
-#    path:  credits.md
-#  - title: License
-#    path:  license.md
+- title: Appendix
+  sections:
+  - title: Contributions
+    path:  A1__Contributions.md
+  - title: Credits
+    path:  A2__Credits.md
+  - title: License
+    path:  A3__License.md

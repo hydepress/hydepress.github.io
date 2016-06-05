@@ -1,6 +1,7 @@
 ############################
 #  Book (Meta) Info
 
-title:  "Octopod Documentation (Book Edition)"
+title:    "Octopod Documentation (Book Edition)"
+subtitle: "A podcast publishing extension for the static site generator Jekyll."
 author:
   name: "Stefan Haslinger et al"
